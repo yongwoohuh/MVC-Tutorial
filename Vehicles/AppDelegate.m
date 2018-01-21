@@ -23,6 +23,7 @@
     NSLog(@"Vehicle go forward: %@", [vehicle goForward]);
     NSLog(@"Vehicle go backward: %@", [vehicle goBackward]);
     NSLog(@"Vehicle stop moving: %@", [vehicle stopMoving]);
+    
     return YES;
 }
 							

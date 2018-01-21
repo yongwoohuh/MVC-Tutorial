@@ -41,4 +41,10 @@
 {
     return nil;
 }
+
+#pragma mark - Conveniece Methods
+- (NSString *)vehicleTitleString
+{
+    return [NSString stringWithFormat:@"%ld %@ %@", self.modelYear, self.brandName, self.modelName];
+}
 @end
