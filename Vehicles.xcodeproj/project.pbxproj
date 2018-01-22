@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91C39B1820155EDD001BBD3A /* Motorcycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C39B1720155EDD001BBD3A /* Motorcycle.m */; };
+		91C39B1B201564C1001BBD3A /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C39B1A201564C1001BBD3A /* Truck.m */; };
 		91CA35D62014D8E1004D4A69 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CA35D52014D8E1004D4A69 /* Car.m */; };
 		F5961A2217DD013A008D39EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2117DD013A008D39EA /* Foundation.framework */; };
 		F5961A2417DD013A008D39EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2317DD013A008D39EA /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91C39B1620155EDD001BBD3A /* Motorcycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Motorcycle.h; sourceTree = "<group>"; };
+		91C39B1720155EDD001BBD3A /* Motorcycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Motorcycle.m; sourceTree = "<group>"; };
+		91C39B19201564C1001BBD3A /* Truck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		91C39B1A201564C1001BBD3A /* Truck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
 		91CA35D42014D8E1004D4A69 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		91CA35D52014D8E1004D4A69 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		F5961A1E17DD013A008D39EA /* Vehicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vehicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,10 +132,14 @@
 				F5961A3017DD013A008D39EA /* AppDelegate.h */,
 				F5961A3117DD013A008D39EA /* AppDelegate.m */,
 				F5961A3317DD013A008D39EA /* Main.storyboard */,
+				91C39B1620155EDD001BBD3A /* Motorcycle.h */,
+				91C39B1720155EDD001BBD3A /* Motorcycle.m */,
 				F5961A5917DD04AF008D39EA /* Vehicle.h */,
 				F5961A5A17DD04AF008D39EA /* Vehicle.m */,
 				F5961A3617DD013A008D39EA /* VehicleListTableViewController.h */,
 				F5961A3717DD013A008D39EA /* VehicleListTableViewController.m */,
+				91C39B19201564C1001BBD3A /* Truck.h */,
+				91C39B1A201564C1001BBD3A /* Truck.m */,
 				F5961A3917DD013A008D39EA /* VehicleDetailViewController.h */,
 				F5961A3A17DD013A008D39EA /* VehicleDetailViewController.m */,
 				F5961A3C17DD013A008D39EA /* Images.xcassets */,
@@ -267,9 +277,11 @@
 				91CA35D62014D8E1004D4A69 /* Car.m in Sources */,
 				F5961A3217DD013A008D39EA /* AppDelegate.m in Sources */,
 				F5961A3817DD013A008D39EA /* VehicleListTableViewController.m in Sources */,
+				91C39B1B201564C1001BBD3A /* Truck.m in Sources */,
 				F5961A2E17DD013A008D39EA /* main.m in Sources */,
 				F5961A3B17DD013A008D39EA /* VehicleDetailViewController.m in Sources */,
 				F5961A5B17DD04AF008D39EA /* Vehicle.m in Sources */,
+				91C39B1820155EDD001BBD3A /* Motorcycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

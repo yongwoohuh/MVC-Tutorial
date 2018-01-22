@@ -27,4 +27,7 @@
 // Convenience method for UITableViewCells and UINavigationBar titles.
 - (NSString *)vehicleTitleString;
 
+// Convenience method to get te vehicle's details.
+- (NSString *)vehicleDetailsString;
+
 @end
